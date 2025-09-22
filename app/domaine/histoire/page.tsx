@@ -128,7 +128,7 @@ export default function HistoirePage() {
             <div className="lg:col-span-7 order-1 lg:order-2">
               <div className="relative h-[450px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.01] transition-all duration-700 group">
                 <img
-                  src="/Page/_common/histoire-hero.jpg"
+                  src="/chateau-lastours-hero.jpg"
                   alt="Château Lastours - Notre Histoire"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />

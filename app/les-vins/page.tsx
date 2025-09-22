@@ -328,12 +328,12 @@ export default function WinesPageSimple() {
                      
                      <ScrollAnimation animation="slideRight" delay={0.8}>
                        <div className="relative h-96 lg:h-[500px] p-4">
-                         <Image
-                           src="/PHOTOS-WEB-LASTOURS/BOUTEILLES/par-gamme/Gamme Confidentielle.jpg"
-                           alt="Gamme Signatures - Bouteilles"
-                           fill
-                           className="object-contain object-center transition-transform duration-700"
-                         />
+                        <Image
+                          src="/wine-petrichor-rose.png"
+                          alt="Gamme Signatures - Bouteilles"
+                          fill
+                          className="object-contain object-center transition-transform duration-700"
+                        />
                        </div>
                      </ScrollAnimation>
                    </div>

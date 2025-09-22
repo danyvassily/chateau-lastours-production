@@ -44,7 +44,7 @@ export const gammes: Gamme[] = [
     title: "Doméni",
     description: "L'expression pure du terroir gaillacois. Cette collection incarne l'authenticité de nos cépages autochtones, révélant la typicité de notre terroir avec élégance et caractère.",
     accent: "#D4AF37", // Or élégant
-    cover: "/images/gammes/domeni-cover.jpg",
+    cover: "/wine-domeni-blanc.jpg",
     cuvees: [
       {
         title: "Doméni Blanc",
@@ -52,7 +52,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/domeni-blanc",
         pdf: getPdfPath("domeni-blanc"),
         colorTag: "Blanc",
-        image: "/Page/Page Cuvée Domeni blanc/BLANC DOMENI.jpg"
+        image: "/wine-domeni-blanc.jpg"
       },
       {
         title: "Doméni Rosé", 
@@ -60,7 +60,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/domeni-rose",
         pdf: getPdfPath("domeni-rose"),
         colorTag: "Rosé",
-        image: "/Page/Page Cuvée domeni Rosé/ROSE DOMENI.jpg"
+        image: "/wine-domeni-rose.jpg"
       },
       {
         title: "Doméni Rouge",
@@ -68,7 +68,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/domeni-rouge",
         pdf: getPdfPath("domeni-rouge"),
         colorTag: "Rouge",
-        image: "/Page/Page Cuvée Domeni Rouge/ROUGE DOMENI.jpg"
+        image: "/wine-domeni-rouge.jpg"
       }
     ]
   },
@@ -77,7 +77,7 @@ export const gammes: Gamme[] = [
     title: "Opus",
     description: "L'excellence absolue. Nos cuvées les plus prestigieuses, issues de nos parcelles d'exception et élevées avec un soin méticuleux pour révéler toute la noblesse de notre terroir.",
     accent: "#8B4513", // Bordeaux noble
-    cover: "/images/gammes/opus-cover.jpg",
+    cover: "/wine-opus-blanc.jpg",
     cuvees: [
       {
         title: "Opus Blanc",
@@ -85,7 +85,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/opus-blanc", 
         pdf: getPdfPath("opus-blanc"),
         colorTag: "Blanc",
-        image: "/Page/Page Cuvée Opus Balnc/BLANC OPUS.jpg"
+        image: "/wine-opus-blanc.jpg"
       },
       {
         title: "Opus Rouge",
@@ -93,7 +93,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/opus-rouge",
         pdf: getPdfPath("opus-rouge"),
         colorTag: "Rouge",
-        image: "/Page/Page Cuvée Opus Rouge/ROUGE OPUS.jpg"
+        image: "/wine-opus-rouge.jpg"
       }
     ]
   },
@@ -102,7 +102,7 @@ export const gammes: Gamme[] = [
     title: "Méthode Traditionnelle",
     description: "L'art de l'effervescence selon nos traditions. Élaborés selon la méthode ancestrale gaillacoise, ces vins révèlent la finesse de nos bulles et la complexité de nos terroirs.",
     accent: "#4A90E2", // Bleu sophistiqué
-    cover: "/images/gammes/methode-cover.jpg",
+    cover: "/wine-methode-blanc.jpg",
     cuvees: [
       {
         title: "Méthode Blanc",
@@ -110,7 +110,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/methode-blanc",
         pdf: getPdfPath("methode-blanc"), 
         colorTag: "Effervescent",
-        image: "/Page/Page Méthode Blanche/LA METHODE BLANC.jpg"
+        image: "/wine-methode-blanc.jpg"
       },
       {
         title: "Méthode Rosé",
@@ -118,7 +118,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/methode-rose",
         pdf: getPdfPath("methode-rose"),
         colorTag: "Effervescent", 
-        image: "/Page/Page Méthode Rosé/LA METHODE ROSE.jpg"
+        image: "/wine-methode-rose.jpg"
       },
       {
         title: "Perlé",
@@ -126,7 +126,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/perle",
         pdf: getPdfPath("perle"),
         colorTag: "Effervescent",
-        image: "/Page/Page cuvée Perlé/BLANC PERLE.jpg"
+        image: "/wine-perle-blanc.jpg"
       }
     ]
   },
@@ -135,7 +135,7 @@ export const gammes: Gamme[] = [
     title: "Poussin",
     description: "Fraîcheur et gourmandise. Cette collection accessible invite à la découverte de nos vins dans un esprit de convivialité, parfaite pour les nouveaux amateurs de vin.",
     accent: "#50C878", // Vert émeraude
-    cover: "/images/gammes/poussin-cover.jpg",
+    cover: "/wine-poussin-blanc.jpg",
     cuvees: [
       {
         title: "Poussin Blanc",
@@ -143,7 +143,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/poussin-blanc",
         pdf: getPdfPath("poussin-blanc"),
         colorTag: "Blanc",
-        image: "/Page/Page Cuvée poussin Blanc/BLANC POUSSIN.jpg"
+        image: "/wine-poussin-blanc.jpg"
       },
       {
         title: "Poussin Rosé",
@@ -151,7 +151,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/poussin-rose",
         pdf: getPdfPath("poussin-rose"),
         colorTag: "Rosé",
-        image: "/Page/Page Cuvée Poussin Rosé/ROSE POUSSIN.jpg"
+        image: "/wine-poussin-rose.jpg"
       }
     ]
   },
@@ -160,7 +160,7 @@ export const gammes: Gamme[] = [
     title: "Signatures",
     description: "Cuvées rares et mystérieuses. Chacune raconte une histoire unique, issue de parcelles sélectionnées et de vinifications d'exception pour les amateurs les plus exigeants.",
     accent: "#9370DB", // Violet mystique
-    cover: "/images/gammes/signatures-cover.jpg", 
+    cover: "/wine-claire-de-lune.jpg", 
     cuvees: [
       {
         title: "Claire de Lune",
@@ -168,7 +168,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/claire-de-lune",
         pdf: getPdfPath("claire-de-lune"),
         colorTag: "Blanc",
-        image: "/Page/Page cuvée Claire de Lune/CLAIRE DE LUNE.jpg"
+        image: "/wine-claire-de-lune.jpg"
       },
       {
         title: "Petrichor Rouge",
@@ -176,7 +176,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/petrichor-rouge", 
         pdf: getPdfPath("petrichor-rouge"),
         colorTag: "Rouge",
-        image: "/Page/Page Cuvée Pertichor Rouge/ROUGE PETRICHOR.jpg"
+        image: "/wine-petrichor-rouge.jpg"
       },
       {
         title: "Pigeonnier",
@@ -184,7 +184,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/pigeonnier",
         pdf: getPdfPath("pigeonnier"),
         colorTag: "Rouge",
-        image: "/Page/Page Cuvée Pigeonnier/ROUGE PIGEONNIER.jpg"
+        image: "/wine-pigeonnier.jpg"
       }
     ]
   }
